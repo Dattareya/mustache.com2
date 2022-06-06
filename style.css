@@ -1,0 +1,18 @@
+h1
+{
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-style: oblique;
+    font-size: larger;
+}
+canvas
+{
+animation-name:adjanimation ;
+animation-duration:1s ;
+animation-iteration-count: infinite;
+}
+@keyframes adjanimation
+{
+from{box-shadow: 5px 5px 30px rgb(30, 0, 255);}
+to{box-shadow: 5px 5px 30px rgb(38, 255, 0);}
+}
